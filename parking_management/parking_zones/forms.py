@@ -38,3 +38,10 @@ class ReservationForm(ModelForm):
 #             'plate_number': TextInput(attrs={'pattern': '[1-7]+', 'title': 'Enter a valid plate_number'})
 #         }
 
+
+# class ParkingSpaceForm(ModelForm):
+#     class Meta:
+#         model
+#         widgets = {
+#             'plate_number': TextInput(attrs={'pattern': '[1-7]+', 'title:': 'Enter a valid number'})
+#         }
